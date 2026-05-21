@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useState } from "react";
 import ContactSection from "./components/Contact_section/Contact_section.jsx";
 import IntroductorySection from "./components/Introductory_section/Introductory_section.jsx";
 import ProjectsSection from "./components/Projects_section/Projects_section.jsx";
