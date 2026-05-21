@@ -1,0 +1,27 @@
+
+
+.contactIcon i{
+    color: white;
+}
+
+
+@media (width>=768px) {
+    .contactIcon{
+        width: 24px;
+        height: 24px;
+       
+    }
+ 
+}
+
+@media (width>=1280px) {
+    .contactIcon{
+        width: 28px;
+        height: 28px;
+       
+    }
+ 
+}
+
+
+

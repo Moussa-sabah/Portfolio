@@ -1,0 +1,88 @@
+/* bg-white shadow-[0px_0px_10px_1px_#e4e4e4]  rounded-xl p-4 */
+/* w-36 2xs:w-40 2xs:h-40 h-36 */
+
+.skill {
+ 
+   
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+
+}
+
+
+.lightShadow{
+   box-shadow:  0 0 5px 0px #a6a6a6;
+}
+.darkShadow{
+    box-shadow: inset 0 0 7px 0px #e4e4e4;
+}
+
+.skillsContainer{
+    width: 144px;
+    height: 144px;
+}
+
+.skill:hover{
+    rotate: 8deg;
+  
+}
+
+@media (width>=400px) {
+    .skillsContainer{
+    width: 160px;
+    height: 160px;
+
+}
+}
+
+@media (width>=500px) {
+    .skillsContainer{
+    width: 170px;
+    height: 170px;
+}
+}
+
+@media (width>=768px) {
+    .skillsContainer{
+    width: 150px;
+    height: 150px;
+}
+}
+
+@media (width>=900px) {
+    .skillsContainer{
+        width: 175px;
+        height: 175px;
+    }
+    .skill{
+        padding: 20px;
+    }
+}
+
+
+@media (width>=1024px) {
+    .skillsContainer{
+        width: 190px;
+        height: 190px;
+    }
+    .skill{
+        padding: 20px;
+    }
+}
+
+@media (width>=1280px) {
+    .skillsContainer{
+        width: 200px;
+        height: 200px;
+    }
+    .skill{
+        padding: 22px;
+    }
+}
+
+
+

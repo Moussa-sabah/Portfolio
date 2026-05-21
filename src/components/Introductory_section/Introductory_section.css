@@ -1,0 +1,59 @@
+
+
+.downloadResumeBtn {
+    transition: all 0.2s linear;
+}
+
+.downloadResumeBtn_darkShadow:hover {
+    box-shadow: -4px 4px 0 0 white;
+}
+
+.downloadResumeBtn_lightShadow:hover{
+    box-shadow: -4px 4px 0 0 #21243D;
+}
+
+.downloadResumeBtn p,
+.downloadResumeBtn span {
+    transition: all 0.3s linear;
+
+}
+
+.downloadResumeBtn:hover span {
+
+
+    opacity: 1;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    
+
+}
+
+.downloadResumeBtn:hover p {
+    top: 100%;
+    transform: translateY(50%);
+    transform: translateX(-50%);
+    opacity: 0;
+
+}
+
+
+
+
+
+.navBar a {
+    transition: all 0.2s linear;
+}
+
+/* text-[#FF6464] font-bold tracking-[4px] scale-125 rotate-2 */
+.choosen {
+    color: #FF6464;
+    font-weight: 900;
+    letter-spacing: 4px;
+    scale: 1.25;
+}
+
+.navBar a:hover {
+    scale: 1.25;
+    cursor: pointer;
+}
