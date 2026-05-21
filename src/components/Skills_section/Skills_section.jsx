@@ -10,11 +10,11 @@ export default function SkillsSection() {
 
     return (
         <main id='skills' className={` section ${theme === 'light' ? 'bg-white' : 'bg-darkSectionBG'} h-screen md:h-fit md:py-[150px] xl:py-0 xl:pt-[80px]  xl:h-screen  shadow-2xl  flex flex-col md:flex-row gap-8 2xs:gap-14 sm:gap-8 items-center justify-center md:justify-between `}>
-            <div className='autoShowOpacity flex flex-col items-center md:items-start gap-8 xl:gap-12 md:w-1/2'>
+            <div style={{animationTimeline:'view()'}} className='autoShow flex flex-col items-center md:items-start gap-8 xl:gap-12 md:w-1/2'>
                 <h1 className={`${theme === "dark" ? 'opacity-70' : ''}  text-3xl 2xs:text-4xl xs:text-[40px] sm:text-[45px] md:text-6xl md_lg:text-5xl xl:text-7xl font-semibold`}>My Skills</h1>
                 <p className={`${theme === 'dark' ? 'font-light' : ''} text-center md:text-start text-[16px] 2xs:text-lg 2xs:leading-[30px] sm:text-[16px] md:text-[18px]  md_lg:text-[19px]  lg:leading-[35px] xl:text-xl xl:leading-[40px] `}>From crafting layouts with modern CSS to managing states and integrating REST APIs, I develop complete frontend solutions that are both functional and visually appealing.</p>
             </div>
-            <div className="grid grid-cols-2 gap-4 autoShowOpacity ">
+            <div style={{animationTimeline:'view()'}}  className="grid grid-cols-2 gap-4 autoShow ">
                 <div className={`${theme === 'light' ? 'lightShadow' : 'darkShadow'} skill skillsContainer`}>
                     <img src="https://logos-world.net/wp-content/uploads/2023/08/React-Logo.png" alt="" />
                 </div>

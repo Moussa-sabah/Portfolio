@@ -57,12 +57,12 @@ body {
 }   
 }
 
-.autoShowOpacity{
-    animation: autoShowOpacityAnimation both ;
-    animation-timeline: view();
+.autoShow{
+    animation: autoShowAnimation both ;
+
 }
 
-@keyframes autoShowOpacityAnimation {
+@keyframes autoShowAnimation {
     0%{
        
         transform: translateY(50px) scale(0.7);

@@ -18,7 +18,7 @@ export default function Inforamtions() {
                     <h1> Frontend Developer</h1>
                 </div>
                 <p className={`${theme === 'dark' ? 'font-light' : ''} text-center md:text-start  md_lg:w-11/12 xl:w-9/12  text-[16px] 2xs:text-lg 2xs:leading-[30px] xs:text-[18px] md:text-[20px] md_lg:text-[19px] `}>Frontend Developer focused on building clean and functional web apps. I work with React, Vue, and modern CSS to bring designs to life with solid code.</p>
-                <a href=" " className={`${theme === 'light' ? 'downloadResumeBtn_lightShadow' : 'downloadResumeBtn_darkShadow'} downloadResumeBtn overflow-hidden relative  w-44 2xs:w-48 sm:w-56 h-10 sm:h-11 md:w-60  md:h-[50px] bg-[#FF6464] rounded-md  text-white  py-2 2xs:py-3 text-[16px] 2xs:text-lg md:text-xl font-semibold text-center`}>
+                <a href="/Moussa Sabah_Frontend_Resume.pdf" download='Moussa Sabah_Frontend_Resume.pdf' className={`${theme === 'light' ? 'downloadResumeBtn_lightShadow' : 'downloadResumeBtn_darkShadow'} downloadResumeBtn overflow-hidden relative  w-44 2xs:w-48 sm:w-56 h-10 sm:h-11 md:w-60  md:h-[50px] bg-[#FF6464] rounded-md  text-white  py-2 2xs:py-3 text-[16px] 2xs:text-lg md:text-xl font-semibold text-center`}>
                     <p className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full  ">Downlaod Resume</p>
                     <span class="absolute left-1/2 -translate-x-1/2 -top-full opacity-0 material-symbols-outlined  font-semibold text-3xl lg:text-4xl">
                         download
