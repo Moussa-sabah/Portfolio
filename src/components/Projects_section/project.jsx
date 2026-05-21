@@ -14,10 +14,10 @@ function Project(props) {
                 <p className="text-sm xl:text-[16px]"> {props.desc}</p>
             </div>
             <div className="flex items-center justify-end gap-3 ">
-                <a href={`${props.repositry}`} target="_blank" className="border-[#FF6464] border w-8 h-8 flex items-center justify-center rounded-md">
+                <a href={`${props.repositry}`} target="_blank" rel="noreferrer" className="border-[#FF6464] border w-8 h-8 flex items-center justify-center rounded-md">
                     <i class="fa-brands fa-github text-xl"></i>
                 </a>
-                <a href={`${props.visitWeb}`} target="_blank" className="bg-[#FF6464] w-8 h-8  flex items-center justify-center rounded-md">
+                <a href={`${props.visitWeb}`} target="_blank" rel="noreferrer" className="bg-[#FF6464] w-8 h-8  flex items-center justify-center rounded-md">
                     <span class="material-symbols-outlined linkIcon text-xl font-bold text-white">
                         arrow_outward
                     </span>
